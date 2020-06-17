@@ -248,7 +248,7 @@ export default function CountriesList() {
                           <Grid item xs={0} md={1} />
                         </Grid>
 
-                        <Grid container spacing={6}>
+                        <Grid container spacing={10}>
                           <Grid item xs={1} />
                           <Grid item xs={3}>
                             <Card>

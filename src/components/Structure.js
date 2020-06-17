@@ -58,11 +58,11 @@ export default function Structure() {
         </Card>
       </Grid>
       <Grid item xs={1} md={2} />
-      <Grid item xs={1} md={1} />
-      <Grid item xs={10} md={10}>
+      <Grid item sm={1} md={1} />
+      <Grid item sm={12} md={10}>
         <CountriesList />
       </Grid>
-      <Grid item xs={1} md={1} />
+      <Grid item sm={1} md={1} />
     </Grid>
   );
 }

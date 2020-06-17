@@ -48,6 +48,8 @@ export default function Structure() {
           <br></br>
         </Card>
       </Grid>
+      <Grid item xs={1} md={2} />
+      <Grid item xs={1} md={2} />
       <Grid item xs={10} md={4}>
         <Card>
           <Typography className={classes.heading} align="center">

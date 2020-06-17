@@ -8,7 +8,7 @@ function Header() {
   const { globalData } = useContext(GlobalContext);
   return (
     <Appbar color="primary" position="static">
-      <Grid container spacing={1}>
+      <Grid container>
         <Grid item xs={1} />
         <Grid item xs={10}>
           <Typography variant="h3" display="inline" color="secondary">

@@ -10,14 +10,13 @@ function Header() {
     <Appbar color="primary" position="static">
       <Grid container spacing={1}>
         <Grid item xs={1} />
-        <Grid item xs={4}>
+        <Grid item xs={10}>
           <Typography variant="h3" display="inline" color="secondary">
             Track
           </Typography>
           <Typography variant="h4" display="inline" color="secondary">
             C<img style={{ width: "45px" }} alt='covid icon' src={covid}></img>vid
           </Typography>
-        </Grid>
         <Typography
           align="right"
           variant="h6"
@@ -31,6 +30,7 @@ function Header() {
             day: "2-digit",
           }).format(globalData.updated)}
         </Typography>
+        </Grid>
         <Grid item xs={1} />
       </Grid>
     </Appbar>
